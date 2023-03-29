@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.curriculum {
+    width: 1000px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido {
+    display: flex;
+    padding: 0px 10px 10px 10px;
+    justify-content: space-between;
+}
+
+.columna {
+    flex: 50%;
+}
+
+.subtitulo {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.contenido-item-lista {
+    margin: 10px 5px 10px 5px
+}
+
+.mi-listado {
+}
